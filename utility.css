@@ -225,23 +225,26 @@
     border-radius: 10px;
   }
 
+  div.blurryBox {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    left: 0px;
+    top: 840px;
+
+    background: #000000;
+    filter: blur(3px);
+  }
   section.section2 {
     position: absolute;
     width: 390px;
     height: 880px;
     left: 0px;
     top: 838px;
-
+    background-image: url(pictures/section2t.jpg);
     z-index: -1;
   }
-  img.backgroundTest {
-    background-image: url(pictures/section2.jpg);
-    filter: blur(1px);
 
-    z-index: -1;
-    height: 880px;
-    width: 390px;
-  }
   div.topMoviesText {
     position: absolute;
     width: 280px;
@@ -259,7 +262,7 @@
     left: 11px;
     top: 140px;
 
-    background: #4d0606;
+    background: #ffffff;
     border: 1px solid #ffffff;
     box-sizing: border-box;
   }
@@ -289,7 +292,7 @@
     left: 11px;
     top: 540px;
 
-    background: #4d0606;
+    background: #ffffff;
     border: 1px solid #ffffff;
     box-sizing: border-box;
   }
