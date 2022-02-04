@@ -1,6 +1,157 @@
-.box {
-  margin: auto;
-  width: 100%;
-  height: 844px;
-  border: 1px solid green;
+@import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Scope+One&display=swap");
+@media screen and (max-width: 390px) {
+  html,
+  body {
+    width: 100%;
+  }
+
+  header.headerGroup {
+    position: absolute;
+    width: 100%;
+    height: 61px;
+    left: 0px;
+    top: 0px;
+    background-color: #b97575;
+  }
+
+  img.filmIcon {
+    position: absolute;
+    left: 19.49%;
+    right: 45.13%;
+    top: -16px;
+    bottom: 92.77%;
+    mix-blend-mode: soft-light;
+  }
+
+  img.bars {
+    position: absolute;
+    width: 38px;
+    height: 40px;
+    left: 334px;
+    top: 10px;
+  }
+
+  section.nameGroup {
+    position: absolute;
+    width: 355px;
+    height: 343px;
+    left: 17px;
+    top: 195px;
+    background-color: #b1b1b11f;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+  }
+
+  section.firstSection {
+    position: absolute;
+    width: 390px;
+    height: 783px;
+    left: 0px;
+    top: 61px;
+    background-image: url(pictures/background.jpg);
+  }
+
+  p.title {
+    position: absolute;
+    width: 117px;
+    height: 23px;
+    left: 8px;
+
+    font-family: Schoolbell;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 28px;
+
+    color: #000000;
+  }
+
+  div.firstNameBox {
+    position: absolute;
+    width: 336px;
+    height: 32px;
+    left: 10px;
+    top: 20px;
+
+    background: #b6b6b6;
+    border-radius: 10px;
+  }
+
+  div.lastNameBox {
+    position: absolute;
+    width: 336px;
+    height: 32px;
+    left: 10px;
+    top: 60px;
+
+    background: #b6b6b6;
+    border-radius: 10px;
+  }
+
+  div.mailBox {
+    position: absolute;
+    width: 336px;
+    height: 32px;
+    left: 10px;
+    top: 100px;
+
+    background: #b6b6b6;
+    border-radius: 10px;
+  }
+
+  div.createButton {
+    position: absolute;
+    width: 169px;
+    height: 45px;
+    left: 94px;
+    top: 180px;
+
+    background: #b97575;
+    border-radius: 10px;
+  }
+
+  div.abortButton {
+    position: absolute;
+    width: 216px;
+    height: 45px;
+    left: 70px;
+    top: 240px;
+
+    background: #b97575;
+
+    box-sizing: border-box;
+
+    border-radius: 10px;
+  }
+
+  button.createButton {
+    background-color: rgba(255, 255, 255, 0);
+    width: 169px;
+    height: 45px;
+    border-radius: 10px;
+
+    font-family: Scope One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+
+    color: #ffffff;
+  }
+
+  button.cancelButton {
+    background-color: rgba(255, 255, 255, 0);
+    width: 216px;
+    height: 45px;
+    border-radius: 10px;
+
+    font-family: Scope One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+
+    color: #ffffff;
+  }
 }
