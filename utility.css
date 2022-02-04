@@ -154,4 +154,84 @@
 
     color: #ffffff;
   }
+
+  input.firstName {
+    width: 328px;
+    font-family: Scope One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    outline: #ffffff;
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+  }
+  input.lastName {
+    width: 328px;
+    font-family: Scope One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    outline: #ffffff;
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+  }
+  input.email {
+    width: 328px;
+    font-family: Scope One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    outline: #ffffff;
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+  }
+
+  div.adds {
+    position: absolute;
+    width: 301px;
+    height: 21px;
+    left: 45px;
+    top: 140px;
+
+    background: #b6b6b6;
+    border-radius: 10px;
+  }
+
+  p.addsQuestion {
+    margin-top: -1px;
+    margin-left: 40px;
+    font-family: Scope One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #000000;
+  }
+  input.addsClick {
+    position: absolute;
+    width: 26px;
+    height: 21px;
+    left: 10px;
+    top: 137px;
+
+    background: #b6b6b6;
+    border-radius: 10px;
+  }
+
+  section.section2 {
+    position: absolute;
+    width: 390px;
+    height: 850px;
+    left: 0px;
+    top: 838px;
+    background-image: url(pictures/section2.jpg);
+    z-index: -1;
+  }
 }
