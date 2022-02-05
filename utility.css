@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Scope+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap");
 
 @media screen and (max-width: 390px) {
   html,
@@ -67,6 +68,29 @@
     line-height: 28px;
 
     color: #000000;
+  }
+
+  div.registerBar {
+    position: absolute;
+    width: 355px;
+    height: 45px;
+    left: 17px;
+    top: 135px;
+
+    background: rgba(185, 117, 117, 0.62);
+    border-radius: 20px;
+  }
+
+  p.reg {
+    margin-top: -5px;
+    font-family: Sansita Swashed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #ffffff;
   }
 
   div.firstNameBox {
@@ -312,5 +336,87 @@
     margin-top: 2px;
     text-align: center;
     font-weight: bold;
+  }
+
+  #menu {
+    position: absolute;
+    width: 35px;
+    height: 30px;
+    margin: 20px 15px;
+    margin-left: 335px;
+
+    cursor: pointer;
+  }
+  .bar {
+    height: 5px;
+    width: 100%;
+    background-color: #000000;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  #bar1 {
+    transform: translateY(-4px);
+  }
+  #bar3 {
+    transform: translateY(4px);
+  }
+  .nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .nav li {
+    list-style: none;
+    padding: 20px 0;
+    margin-left: 250px;
+    font-family: Sansita Swashed;
+  }
+  .nav {
+    padding: 0;
+    margin: 0 20px;
+    transition: 0.3s ease;
+    display: none;
+  }
+  .menu-bg,
+  #menu-bar {
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 350px;
+    background: radial-gradient(circle, #000000, #242558);
+
+    border-radius: 10%;
+    transition: 0.3s ease;
+  }
+  #menu-bar {
+    z-index: 2;
+  }
+  .change-bg {
+    width: 160px;
+    height: 200px;
+    transform: translate(-80%, -20%);
+  }
+  .nav li a:hover {
+    font-weight: bold;
+  }
+  .change .bar {
+    background-color: white;
+  }
+  .change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+  }
+  .change #bar3 {
+    transform: translateY(-6px) rotate(45deg);
+  }
+  .change #bar2 {
+    opacity: 0;
+  }
+  .change {
+    display: block;
   }
 }
