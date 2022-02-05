@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Scope+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
 @media screen and (max-width: 390px) {
   html,
   body {
@@ -299,5 +301,16 @@
   img.movies {
     width: 111px;
     height: 265px;
+  }
+
+  p.movieText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    margin-top: 2px;
+    text-align: center;
+    font-weight: bold;
   }
 }
