@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Scope+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Rozha+One&display=swap");
 @media screen and (max-width: 390px) {
   html,
   body {
@@ -388,7 +388,7 @@
     width: 0;
     height: 0;
     margin: 30px 0 20px 350px;
-    background: radial-gradient(circle, #000000, #242558);
+    background: radial-gradient(circle, #000000c9, #b97575);
 
     border-radius: 10%;
     transition: 0.3s ease;
@@ -418,5 +418,73 @@
   }
   .change {
     display: block;
+  }
+
+  section.section3 {
+    position: absolute;
+    width: 390px;
+    height: 835px;
+    left: 0px;
+    top: 1668px;
+
+    background-image: url(pictures/section2t.jpg);
+    z-index: -1;
+  }
+
+  div.informationBox {
+    position: absolute;
+    width: 319px;
+    height: 48px;
+    left: 36px;
+    top: 130px;
+    border-radius: 10px;
+    background: #b97575c4;
+  }
+  p.mapText {
+    font-family: Rozha One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #ffffffbd;
+  }
+
+  p.informationText {
+    margin-top: -3px;
+    font-family: Rozha One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+
+    color: #ffffffc2;
+  }
+
+  div.mapBox {
+    position: absolute;
+    width: 319px;
+    height: 269px;
+    left: 36px;
+    top: 270px;
+
+    background: #c4c4c4;
+  }
+  div.textBox {
+    position: absolute;
+    width: 319px;
+    height: 99px;
+    left: 36px;
+    top: 560px;
+    border-radius: 10px;
+
+    background: #b97575;
+  }
+
+  img.map {
+    width: 320px;
+    height: 270px;
+    border-radius: 10px;
   }
 }
