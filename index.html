@@ -33,20 +33,41 @@
       </div>
       <section class="nameGroup">
         <div class="firstNameBox">
-          <input class="firstName" type="text" placeholder="Firstname" />
+          <input
+            id="first"
+            class="firstName"
+            type="text"
+            placeholder="Firstname"
+          />
         </div>
         <div class="lastNameBox">
-          <input class="lastName" type="text" placeholder="Lastname" />
+          <input
+            id="second"
+            class="lastName"
+            type="text"
+            placeholder="Lastname"
+          />
         </div>
         <div class="mailBox">
-          <input class="email" type="text" placeholder="Email adress" />
+          <input
+            id="mail"
+            class="email"
+            type="text"
+            placeholder="Email adress"
+          />
         </div>
         <input class="addsClick" type="checkbox" checked="yes" />
         <div class="adds">
           <p class="addsQuestion">Do you want to get news?</p>
         </div>
         <div class="createButton">
-          <button class="createButton" type="button">Create</button>
+          <button
+            class="createButton"
+            type="button"
+            onclick="checkLoginMethod()"
+          >
+            Create
+          </button>
         </div>
         <div class="abortButton">
           <button class="cancelButton">Cancel</button>
